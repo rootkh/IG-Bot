@@ -4,6 +4,9 @@ from selenium.webdriver.common.by import By
 import random
 import time
 
+
+
+
 def sleep_for_period_of_time():
     limit = random.randint(7,10)
     time.sleep(limit)
